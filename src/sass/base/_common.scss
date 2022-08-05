@@ -1,0 +1,25 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    color: var(--main-text-color);
+    background-color: #ffffff;
+    /* background-color: #e5e5e5; */
+    letter-spacing: 0em;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1360px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+}

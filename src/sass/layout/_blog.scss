@@ -1,0 +1,37 @@
+/* Blog */
+
+.blog-flex {
+    display: flex;
+}
+
+.blog-wrap {
+    padding-top: 112px;
+    padding-left: 30px;
+    padding-right: 44px;
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-axcent-color);
+}
+
+.blog-date {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+.blog-title {
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.26;
+    margin-top: 5px;
+    margin-bottom: 26px;
+}
+
+.blog-text {
+    margin-bottom: 28px;
+}
+
+.blog-link {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 11px 31px 10px 42px;
+}

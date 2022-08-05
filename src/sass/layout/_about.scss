@@ -1,0 +1,40 @@
+/* about  */
+.section-provide {
+    display: flex;
+}
+
+.team-pic {
+    width: 680px;
+}
+
+.team-pic>img {
+    max-width: 680px;
+    height: auto;
+    object-fit: cover;
+}
+
+.provide-article {
+    padding: 84px 44px 30px 30px;
+
+    background-color: var(--primary-axcent-color);
+    color: var(--secondary-text-color);
+}
+
+.provide-article p:nth-child(1) {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.provide-article h2 {
+    margin-bottom: 20px;
+}
+
+.provide-read-more {
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    width: 167px;
+    height: 50px;
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 5px;
+}

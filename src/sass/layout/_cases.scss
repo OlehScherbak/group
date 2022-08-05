@@ -1,0 +1,39 @@
+/* Cases */
+
+.cases {
+    padding-top: 50px;
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+.cases-text {
+    font-size: 20px;
+    line-height: 1.65;
+    margin-bottom: 0;
+}
+
+.cases-title {
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.26;
+    margin-top: 15px;
+    margin-bottom: 34px;
+}
+
+.cases-text-secondary {
+    margin-bottom: 39px;
+}
+
+.cases-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.case-item:not(:nth-child(4n)) {
+    margin-right: 8px;
+}
+
+.case-item:not(:nth-last-child(-n + 4)) {
+    margin-bottom: 7px;
+}

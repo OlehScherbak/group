@@ -1,0 +1,27 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    
+    &__icon {
+        fill: var(--secondary-text-color);
+        width: 35px;
+        height: 35px;
+        transition: fill var(--trans-duration) var(--timing-function);
+    }
+    
+    &__item:not(:last-child) {
+        margin-right: 25px;
+    }
+    
+    &__icon:hover {
+        fill: rgba(121, 223, 144, 0.5);
+    }
+    
+    &__icon--youtube {
+        width: 40px;
+    }
+    
+    &__icon--instagram {
+        width: 31px;
+    }
+}
